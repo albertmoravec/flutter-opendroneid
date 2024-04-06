@@ -16,7 +16,6 @@ env:
 jobs:
   publish:
     name: Publish to pub.dev
-    needs: release-version
     permissions:
       id-token: write
     runs-on: ubuntu-latest
