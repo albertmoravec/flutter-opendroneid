@@ -29,6 +29,7 @@ jobs:
         uses: dronetag/gha-shared/.github/actions/flutter-install@master
         with:
           flutter-version: ${{ env.FLUTTER_VERSION }}
+          setup-java: false
           enforce-lockfile: false
       - name: Publish to pub.dev
-        run: flutter pub publish -f --dry-run
+        run: flutter pub publish --dry-run
