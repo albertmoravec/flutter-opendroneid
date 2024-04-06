@@ -39,4 +39,4 @@ jobs:
           flutter-version: ${{ env.FLUTTER_VERSION }}
           enforce-lockfile: false
       - name: Publish to pub.dev
-        run: flutter pub publish -f
+        run: flutter pub publish -f --dry-run
