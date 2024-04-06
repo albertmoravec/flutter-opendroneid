@@ -14,14 +14,6 @@ env:
   FLUTTER_VERSION: "3.16.7"
 
 jobs:
-  check:
-    name: Check for previous release
-    uses: dronetag/gha-shared/.github/actions/check-previous@check-previous-custom-ref
-    with:
-      workflow-name: Create Github release
-      github-token: ${{ secrets.GITHUB_TOKEN }}
-      ref: refs/tags/${{ inputs.version }}
-
   publish:
     name: Publish to pub.dev
     needs: release-version
@@ -29,6 +21,12 @@ jobs:
       id-token: write
     runs-on: ubuntu-latest
     steps:
+      - name: Check successful release
+        uses: dronetag/gha-shared/.github/actions/check-previous@check-previous-custom-ref
+        with:
+          workflow-name: Create Github release
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          ref: refs/tags/${{ inputs.version }}
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
