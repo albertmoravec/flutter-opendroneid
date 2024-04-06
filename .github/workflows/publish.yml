@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check successful release
-        uses: dronetag/gha-shared/.github/actions/check-previous@check-previous-custom-ref
+        uses: dronetag/gha-shared/.github/actions/check-previous@feat/check-previous-custom-ref
         with:
           workflow-name: Create Github release
           github-token: ${{ secrets.GITHUB_TOKEN }}
