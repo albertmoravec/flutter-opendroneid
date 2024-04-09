@@ -26,4 +26,4 @@ jobs:
       install-yq: true
       must-release: true
     secrets:
-      github-token: ${{ secrets.GITHUB_TOKEN }}
+      github-token: ${{ secrets.RELEASE_GH_TOKEN }}
