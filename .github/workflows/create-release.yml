@@ -64,7 +64,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.github-token }}
           GITHUB_TOKEN: ${{ secrets.github-token }}
-        run: semantic-release
+        run: npx semantic-release
       - name: Make sure a version has been released
         if: inputs.must-release
         run: git describe --tags --exact-match
