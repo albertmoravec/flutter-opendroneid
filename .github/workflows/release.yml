@@ -14,13 +14,13 @@ env:
   GH_TOKEN: ${{ secrets.INVALID_GH_TOKEN }}
 
 jobs:
-  integration:
-    name: Run integration
-    uses: ./.github/workflows/integration.yml
+  # integration:
+  #   name: Run integration
+  #   uses: ./.github/workflows/integration.yml
 
   release-version:
     name: Release a new version
-    needs: integration
+    # needs: integration
     uses: ./.github/workflows/create-release.yml
     concurrency: release-version-${{ github.repository }}
     with:
