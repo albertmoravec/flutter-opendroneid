@@ -27,5 +27,6 @@ jobs:
       install-changelog-plugin: true
       install-yq: true
       must-release: true
+      create-github-release: false
     secrets:
       github-token: ${{ secrets.INVALID_GH_TOKEN }}
