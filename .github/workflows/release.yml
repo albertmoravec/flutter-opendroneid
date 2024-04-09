@@ -21,7 +21,7 @@ jobs:
   release-version:
     name: Release a new version
     needs: integration
-    uses: dronetag/gha-shared/.github/workflows/create-release.yml@master
+    uses: ./.github/workflows/create-release.yml
     concurrency: release-version-${{ github.repository }}
     with:
       install-changelog-plugin: true
