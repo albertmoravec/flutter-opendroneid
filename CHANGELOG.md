@@ -1,3 +1,11 @@
+# [0.17.0](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.16.0...v0.17.0) (2024-04-09)
+
+
+### Features
+
+* allow multiple basic id messages in container ([#28](https://github.com/albertmoravec/flutter-opendroneid/issues/28)) ([2fb50e8](https://github.com/albertmoravec/flutter-opendroneid/commit/2fb50e88a4efc8f42c2a691414023326e5dc72fa))
+* keep map of basic messages with id type as key ([fbfa0ef](https://github.com/albertmoravec/flutter-opendroneid/commit/fbfa0ef21c3603500ae7e5949940414090e1b11b))
+
 # [0.17.0](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.16.0...v0.17.0) (2024-04-06)
 
 
