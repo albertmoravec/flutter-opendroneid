@@ -10,8 +10,6 @@ on:
 
 env:
   FLUTTER_VERSION: "3.16.7"
-  GITHUB_TOKEN: ${{ secrets.INVALID_GH_TOKEN }}
-  GH_TOKEN: ${{ secrets.INVALID_GH_TOKEN }}
 
 jobs:
   # integration:
@@ -26,7 +24,7 @@ jobs:
     with:
       install-changelog-plugin: true
       install-yq: true
-      must-release: true
+      must-release: false
       create-github-release: false
     secrets:
-      github-token: ${{ secrets.INVALID_GH_TOKEN }}
+      pat-token: ${{ secrets.PATTEST }}
