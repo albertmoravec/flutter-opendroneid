@@ -1,3 +1,10 @@
+# [0.18.0](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.17.0...v0.18.0) (2024-06-04)
+
+
+### Features
+
+* Release with semantic bot ([7a4cb25](https://github.com/albertmoravec/flutter-opendroneid/commit/7a4cb25344b1f79fc8469cee3dc05c17cd998664))
+
 # [0.17.0](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.16.0...v0.17.0) (2024-04-09)
 
 
