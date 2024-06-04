@@ -1,3 +1,10 @@
+## [0.18.1](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.18.0...v0.18.1) (2024-06-04)
+
+
+### Bug Fixes
+
+* CI bugs ([2fd90e3](https://github.com/albertmoravec/flutter-opendroneid/commit/2fd90e3d99d6d420d35aaffe3b39fa49092128cb))
+
 # [0.18.0](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.17.0...v0.18.0) (2024-06-04)
 
 
