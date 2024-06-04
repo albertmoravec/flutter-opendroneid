@@ -1,3 +1,10 @@
+## [0.18.2](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.18.1...v0.18.2) (2024-06-04)
+
+
+### Bug Fixes
+
+* Try another CI glob ([e6b5812](https://github.com/albertmoravec/flutter-opendroneid/commit/e6b58128246447083cd19b0252a304491d5b4b35))
+
 ## [0.18.1](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.18.0...v0.18.1) (2024-06-04)
 
 
