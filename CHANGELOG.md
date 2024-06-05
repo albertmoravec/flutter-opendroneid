@@ -1,3 +1,10 @@
+# [0.20.0](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.19.0...v0.20.0) (2024-06-05)
+
+
+### Features
+
+* Rework publishing CI ([42205bc](https://github.com/albertmoravec/flutter-opendroneid/commit/42205bcef504bbf76eda186bec2f506d46d1fae4))
+
 # [0.19.0](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.18.2...v0.19.0) (2024-06-05)
 
 
