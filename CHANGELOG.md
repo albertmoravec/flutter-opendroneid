@@ -1,3 +1,5 @@
+## [0.20.2](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.20.1...v0.20.2) (2024-06-05)
+
 ## [0.20.1](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.20.0...v0.20.1) (2024-06-05)
 
 
