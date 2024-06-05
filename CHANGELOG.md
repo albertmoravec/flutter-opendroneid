@@ -1,3 +1,10 @@
+## [0.20.1](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.20.0...v0.20.1) (2024-06-05)
+
+
+### Bug Fixes
+
+* Invalid CI dep ([cf258f3](https://github.com/albertmoravec/flutter-opendroneid/commit/cf258f3c54fcc39026ed26069bac550e1d9072ee))
+
 # [0.20.0](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.19.0...v0.20.0) (2024-06-05)
 
 
