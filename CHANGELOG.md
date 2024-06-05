@@ -1,3 +1,10 @@
+# [0.19.0](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.18.2...v0.19.0) (2024-06-05)
+
+
+### Features
+
+* Try if check in CI ([0cee654](https://github.com/albertmoravec/flutter-opendroneid/commit/0cee6542d1169b678142ac1445085295bdf3bbd5))
+
 ## [0.18.2](https://github.com/albertmoravec/flutter-opendroneid/compare/v0.18.1...v0.18.2) (2024-06-04)
 
 
